@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/mantinia" rel="stylesheet" />
+
+    <meta charset="UTF-8" />
+    <title>Formulaire d'inscription</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">ELDEN RING II</h1>
+    <p id="description">INSCRIPTION À L'ALPHA D'ELDEN RING II</p>
+
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label"
+          >Votre Nom:
+          <input placeholder="Ex: Jean Dubois" required id="name" type="text" />
+        </label>
+        <label id="email-label"
+          >Adresse Email:
+          <input
+            placeholder="Ex: jeandubois@live.fr"
+            id="email"
+            type="email"
+            required
+          />
+        </label>
+        <label id="number-label"
+          >Age:
+          <input
+            placeholder="Ex: 25"
+            id="number"
+            type="number"
+            min="0"
+            max="120"
+          />
+        </label>
+        <label
+          >Où avez-vous entendu parler de l'Alpha ?
+          <select id="dropdown">
+            <option value="">Choisir..</option>
+            <option value="1">Site spécialisé</option>
+            <option value="2">En boutique</option>
+            <option value="3">Réseaux sociaux</option>
+            <option value="4">Autre</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Votre expérience sur les jeux Fromsoftware:</legend>
+        <label for="tous">
+          <input
+            class="inline"
+            value="5"
+            checked
+            type="radio"
+            name="exp"
+            id="tous"
+          />
+          J'ai fait tous les jeux
+        </label>
+        <label for="quelques">
+          <input
+            class="inline"
+            value="6"
+            type="radio"
+            name="exp"
+            id="quelques"
+          />
+          J'en ai fait quelques-uns
+        </label>
+        <label for="jamais">
+          <input class="inline" value="7" type="radio" name="exp" id="jamais" />
+          Je n'ai jamais joué
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Quel(s) genre(s) de jeu(x) aimez-vous ?</legend>
+        <label for="action">
+          <input
+            class="inline"
+            value="8"
+            type="checkbox"
+            id="action"
+          />Action/Aventure
+        </label>
+        <label for="rpg">
+          <input class="inline" value="9" type="checkbox" id="rpg" />RPG
+        </label>
+        <label for="survie">
+          <input class="inline" value="10" type="checkbox" id="survie" />Survie
+        </label>
+        <label for="fps">
+          <input class="inline" value="11" type="checkbox" id="fps" />FPS
+        </label>
+        <label for="simulation">
+          <input
+            class="inline"
+            value="12"
+            type="checkbox"
+            id="simulation"
+          />Simulation
+        </label>
+        <label for="mmorpg">
+          <input class="inline" value="13" type="checkbox" id="mmorpg" />MMORPG
+        </label>
+        <label for="moba">
+          <input class="inline" value="14" type="checkbox" id="moba" />MOBA
+        </label>
+
+        <label for="plus">
+          <p id="plus">Dites-nous-en plus:</p>
+          <textarea id="plus" name="plus" rows="4" cols="30"></textarea>
+        </label>
+      </fieldset>
+      <input class="submit" type="submit" id="submit" value="ENVOYER" />
+    </form>
+  </body>
+</html>
