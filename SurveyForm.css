@@ -14,7 +14,7 @@ p[id="plus"] {
   text-align: unset;
   text-decoration: underline;
   background-color: unset;
-  font-family: EB Garamond;
+  font-family: "EB Garamond";
   border: none;
 }
 
@@ -49,7 +49,7 @@ form {
   width: 80vw;
   margin: 0 auto;
   color: #c19d53;
-  font-family: EB Garamond;
+  font-family: "EB Garamond";
   font-size: 17px;
   padding: 10px 0 10px 0;
   max-width: 500px;
