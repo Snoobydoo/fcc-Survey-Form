@@ -1,6 +1,6 @@
 # Survey Form - freeCodeCamp
 
-Ceci est le premier projet nécessaire à la certification "Responsive Web Designer" de freeCodecamp, il s'agit d'un formulaire.
+Ceci est le premier projet nécessaire à la certification "Responsive Web Designer" de freeCodeCamp, il s'agit d'un formulaire.
 
 ## À propos
 
