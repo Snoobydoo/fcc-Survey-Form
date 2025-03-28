@@ -23,7 +23,7 @@ Pour modifier ce projet il est recommandé d'utiliser :
 Si vous souhaitez contribuer, lisez le fichier [CONTRIBUTING.md](https://example.org) pour savoir comment le faire.
 
 ## Auteurs
-Listez le(s) auteur(s) du projet ici !
+
 * **Théo Evanno** (https://github.com/theoevanno)
 
 Lisez la liste des [contributeurs](https://github.com/your/project/contributors) pour voir qui à aidé au projet !
